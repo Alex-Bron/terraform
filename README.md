@@ -1,4 +1,4 @@
-# Welcome to the HCP Terraform building block of the workshop
+# Welcome to the HCP Terraform building blocks of the workshop
 
 > [!IMPORTANT]  
 > You should have received an invitation to the HCP Terraform organization name 'TechXchangeNL'.
