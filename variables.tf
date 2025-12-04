@@ -26,7 +26,7 @@ variable "instance_name_prefix" {
 
 variable "instance_type" {
   description = "Specifies the AWS instance type."
-  default     = "t3.micro"
+  default     = "t3.large"
 }
 
 variable "security_group_name" {
