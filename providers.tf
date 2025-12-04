@@ -19,4 +19,8 @@ provider "aws" {
   }
 }
 
-
+# Configure the AAP Provider
+provider "aap" {
+  host = "https://caap.fvz.ansible-labs.de"
+  token = var.AAP_TOKEN
+}
