@@ -1,4 +1,4 @@
-##############################################################################
+2##############################################################################
 # Variables File
 #
 # Here is where we store the default values for all the variables used in our
@@ -26,7 +26,7 @@ variable "instance_name_prefix" {
 
 variable "instance_type" {
   description = "Specifies the AWS instance type."
-  default     = "t3.micro"
+  default     = "t2.micro"
 }
 
 variable "security_group_name" {
