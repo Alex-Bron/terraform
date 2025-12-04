@@ -25,5 +25,4 @@ provider "aws" {
 # Configure the AAP Provider
 provider "aap" {
   host = var.aap_host
-  token = var.AAP_TOKEN
 }
