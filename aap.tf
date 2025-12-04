@@ -11,7 +11,7 @@ data "aap_job_template" "deploy_web_site" {
 resource "aap_inventory" "bron_tf_inventory" {
   name              = "${var.instance_name_prefix}-TF-Inventory"
   description       = "Terraform-generated inventory"
-  organization_name = "TechXchangeNL"
+  organization      = 2
 }
 
 # Add the new EC2 instance to the inventory
